@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>quiz_2</title>
+</head>
+<body>
+    <div class="container_1">
+        <h3>check the given number is odd or even</h3>
+        <h3>Enter any Number</h3>
+        <input type="number" id="input" placeholder="Enter your value">
+        <button onclick="EvenorOdd()">Check</button>
+        <p id="output"></p>
+    </div>
+    <div class="container_2">
+    <h3>Enter Marks:</h3>
+    <br>
+    <input type="number" id="mark1" min="0" max="100" placeholder="Subject 1">
+    <br>
+    <input type="number" id="mark2" min="0" max="100" placeholder="Subject 2">
+    <br>
+    <input type="number" id="mark3" min="0" max="100" placeholder="Subject 3">
+    <br>
+    <input type="number" id="mark4" min="0" max="100" placeholder="Subject 4">
+    <br>
+    <input type="number" id="mark5" min="0" max="100" placeholder="Subject 5">
+    <br>
+
+    <h3>Enter Credit Hours:</h3>
+    <br>
+    <input type="number" id="credit1" min="1" placeholder="Credit Hr 1">
+    <br>
+    <input type="number" id="credit2" min="1" placeholder="Credit Hr 2">
+    <br>
+    <input type="number" id="credit3" min="1" placeholder="Credit Hr 3">
+    <br>
+    <input type="number" id="credit4" min="1" placeholder="Credit Hr 4">
+    <br>
+
+    <button id="calculateButton" onclick="cal_CGPA()">Calculate CGPA</button>
+
+    <p id="result"></p>
+</div>
+</body>
+</html>

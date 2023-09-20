@@ -1,0 +1,32 @@
+.container_1{
+    border: 2px grey solid;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    margin-right: 200px;
+    margin-left: 200px;
+   
+}
+h1{
+    color:rgb(69, 69, 3);
+}
+h3{
+    color: grey;
+}
+p{
+    color: green;
+    font-size: large;
+    font-weight: 700;
+}
+
+.container_2{
+    border: 2px grey solid;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+.container_1 input{
+    margin-bottom: 10px;
+}
